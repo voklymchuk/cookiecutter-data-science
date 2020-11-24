@@ -1,0 +1,21 @@
+name: {{ cookiecutter.repo_name }}
+dependencies:
+  - flake8
+  - pip
+  - setuptools
+  - wheel
+  - pandas
+  - scikit-learn
+  - click
+  - Sphinx
+  - pytest
+  - black
+  - jupyterlab
+  - nbconvert
+  - pip:
+      - awscli
+      - python-dotenv
+      - pytest-sugar
+      - pytest-cov
+      - -e .
+  - python>=3.6

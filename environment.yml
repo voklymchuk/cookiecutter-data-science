@@ -1,0 +1,15 @@
+dependencies:
+  - flake8
+  - pip
+  - pandas
+  - scikit-learn
+  - click
+  - mkdocs
+  - pytest
+  - black
+  - cookiecutter
+  - pip:
+      - python-dotenv
+      - pytest-sugar
+      - mkdocs-cinder
+  - python>=3.6
