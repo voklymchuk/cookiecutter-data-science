@@ -28,11 +28,11 @@ $ conda install cookiecutter
 ### To start a new project, run:
 ------------
 
-    cookiecutter https://github.com/waveFrontSet/cookiecutter-data-science
-    
+    cookiecutter https://github.com/voklymchuk/cookiecutter-data-science
+
 ### Create a new `conda` environment:
 ------------
-    
+
     make create_environment
 
 ### Overview over the next steps
@@ -43,9 +43,9 @@ steps:
 
 - Define how to obtain the raw data of your project and update the `data/raw`
   target in the `Makefile` accordingly.
-- Define generic processing and clean up transformations in 
+- Define generic processing and clean up transformations in
   `{{ cookiecutter.module_name }}/data/generic_processing.py` to produce interim data.
-- Define project specific transformations to obtain the final data set in 
+- Define project specific transformations to obtain the final data set in
   `{{ cookiecutter.module_name }}/features/build_features.py`.
 - Edit `{{ cookiecutter.module_name }}/models/model_config.py` to decide what
   models you want to build and what the target value of the prediction will be.
