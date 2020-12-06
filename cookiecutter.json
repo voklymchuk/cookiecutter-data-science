@@ -1,5 +1,5 @@
 {
-    "project_name": "basename(os.getcwd())",
+    "project_name": "os.path.basename(os.getcwd())",
     "repo_name": "{{ cookiecutter.project_name.lower().replace(' ', '_').removesuffix('Project') }}",
     "module_name": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
     "author_name": "Your name (or your organization/company/team)",
